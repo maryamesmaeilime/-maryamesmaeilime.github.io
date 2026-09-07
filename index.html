@@ -1,114 +1,244 @@
-<section class="header">
-  <img
-    src="Picture1.png"
-    alt="Portrait of Maryam Esmaeili"
-    class="profile-photo"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
   >
 
-  <div>
-    <h1>Maryam Esmaeili</h1>
+  <title>Maryam Esmaeili | Academic Profile</title>
 
-    <p>
-      PhD Candidate in Earth and Planetary Sciences,
-      University of Florence
-    </p>
+  <style>
+    body {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+    }
 
-    <p>
-      Visiting PhD Student, Sustainable Minerals Institute,
-      University of Queensland
-    </p>
-  </div>
-</section>
+    h1,
+    h2 {
+      color: #174b73;
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #0866c6;
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      border-bottom: 2px solid #174b73;
+      padding-bottom: 20px;
+    }
+
+    .header-text {
+      text-align: left;
+    }
+
+    .header-text p {
+      margin: 6px 0;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      flex-shrink: 0;
+      object-fit: cover;
+      object-position: center;
+      border: 4px solid #174b73;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    section:not(.header) {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        margin: 15px auto;
+        padding: 15px;
+      }
+
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .header-text {
+        text-align: center;
+      }
+
+      .profile-photo {
+        width: 130px;
+        height: 130px;
+      }
+    }
+  </style>
+</head>
+
 <body>
-  <section class="header">
-    <h1>Maryam Esmaeili</h1>
-    <p>
-      PhD Candidate in Earth and Planetary Sciences,
-      University of Florence
-    </p>
-    <p>
-      Visiting PhD Student, Sustainable Minerals Institute,
-      University of Queensland
-    </p>
-  </section>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      My research focuses on rock-mass characterization and ground-deformation
-      hazard assessment using remote sensing, UAV surveys, LiDAR, image
-      processing, and 2D/3D point-cloud analysis.
-    </p>
-  </section>
+  <header class="header">
+    <img
+      src="Picture1.png"
+      alt="Portrait of Maryam Esmaeili"
+      class="profile-photo"
+    >
 
-  <section>
-    <h2>Research Interests</h2>
-    <ul>
-      <li>Engineering geology and natural hazards</li>
-      <li>Rock-fracture characterization</li>
-      <li>LiDAR and UAV remote sensing</li>
-      <li>2D/3D image and point-cloud processing</li>
-      <li>Hyperspectral remote sensing</li>
-      <li>Fractal analysis</li>
-    </ul>
-  </section>
+    <div class="header-text">
+      <h1>Maryam Esmaeili</h1>
 
-  <section>
-    <h2>Selected Publications</h2>
-    <ul>
-      <li>
-        Automated Fracture Aperture Quantification in Rock Outcrops Using
-        Image Processing Technique: The OpenFraQ Algorithm.
-        <a href="https://doi.org/10.1016/j.rineng.2026.109043">
-          DOI
+      <p>
+        PhD Candidate in Earth and Planetary Sciences,
+        University of Florence
+      </p>
+
+      <p>
+        Visiting PhD Student, Sustainable Minerals Institute,
+        University of Queensland
+      </p>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>About Me</h2>
+
+      <p>
+        My research focuses on rock-mass characterization and
+        ground-deformation hazard assessment using remote sensing, UAV
+        surveys, LiDAR, image processing, and 2D/3D point-cloud analysis.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+
+      <ul>
+        <li>Engineering geology and natural hazards</li>
+        <li>Rock-fracture characterization</li>
+        <li>LiDAR and UAV remote sensing</li>
+        <li>2D/3D image and point-cloud processing</li>
+        <li>Hyperspectral remote sensing</li>
+        <li>Fractal analysis</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected Publications</h2>
+
+      <ul>
+        <li>
+          Automated Fracture Aperture Quantification in Rock Outcrops Using
+          Image Processing Technique: The OpenFraQ Algorithm.
+          <a
+            href="https://doi.org/10.1016/j.rineng.2026.109043"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DOI
+          </a>
+        </li>
+
+        <li>
+          Rock mass exposure fracture detection through 2D close-range images
+          using image-processing techniques: a review.
+          <a
+            href="https://doi.org/10.1007/s12145-025-01980-0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DOI
+          </a>
+        </li>
+
+        <li>
+          PRISMA hyperspectral imagery for mapping alteration zones associated
+          with the Kuhpanj porphyry copper deposit.
+          <a
+            href="https://doi.org/10.1080/22797254.2023.2299369"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DOI
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Software</h2>
+
+      <ul>
+        <li>
+          <strong>ObliqueFit:</strong>
+          Oblique rendering for LAS/LAZ point clouds
+        </li>
+
+        <li>
+          <strong>OpenFrac2D:</strong>
+          Automated 2D fracture characterization
+        </li>
+
+        <li>
+          <strong>IntersectC:</strong>
+          3D rock-intersection analysis
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact and Profiles</h2>
+
+      <p>
+        Email:
+        <a href="mailto:Maryam.esmaili@unifi.it">
+          Maryam.esmaili@unifi.it
         </a>
-      </li>
+      </p>
 
-      <li>
-        Rock mass exposure fracture detection through 2D close-range images
-        using image-processing techniques: a review.
-        <a href="https://doi.org/10.1007/s12145-025-01980-0">
-          DOI
+      <p>
+        <a
+          href="https://scholar.google.com/citations?user=46cGcxoAAAAJ"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Google Scholar
         </a>
-      </li>
 
-      <li>
-        PRISMA hyperspectral imagery for mapping alteration zones associated
-        with the Kuhpanj porphyry copper deposit.
-        <a href="https://doi.org/10.1080/22797254.2023.2299369">
-          DOI
+        |
+
+        <a
+          href="https://www.linkedin.com/in/maryam-esmaeili-6753b6328/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
         </a>
-      </li>
-    </ul>
-  </section>
+      </p>
+    </section>
 
-  <section>
-    <h2>Software</h2>
-    <ul>
-      <li><strong>ObliqueFit:</strong> Oblique rendering for LAS/LAZ point clouds</li>
-      <li><strong>OpenFrac2D:</strong> Automated 2D fracture characterization</li>
-      <li><strong>IntersectC:</strong> 3D rock-intersection analysis</li>
-    </ul>
-  </section>
+  </main>
 
-  <section>
-    <h2>Contact and Profiles</h2>
-    <p>
-      Email:
-      <a href="mailto:Maryam.esmaili@unifi.it">
-        Maryam.esmaili@unifi.it
-      </a>
-    </p>
-
-    <p>
-      <a href="https://scholar.google.com/citations?user=46cGcxoAAAAJ">
-        Google Scholar
-      </a>
-      |
-      <a href="https://www.linkedin.com/in/maryam-esmaeili-6753b6328/">
-        LinkedIn
-      </a>
-    </p>
-  </section>
 </body>
 </html>
